@@ -46,7 +46,7 @@ public class SubjectTypeExtractor {
         basicGenEd.put("HBLA5200", "basicMath");
         basicGenEd.put("HBLA5201", "computingdata"); //변수명 추가
         basicGenEd.put("HBLA5002", "algorithmgamecontents"); //변수명 추가
-        //교양과 인성 아직 추가전임
+        //교양과 인성 아직 추가전임 (단대별 상이)
 
         subjectTypeMap.put("기초교양", basicGenEd);
 

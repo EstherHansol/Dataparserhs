@@ -13,9 +13,9 @@ public class Main {
         }
 
         // 데이터베이스 연결
-        String url = "jdbc:mysql://localhost:3306/ETParse?serverTimezone=UTC&characterEncoding=UTF-8"; //  데이터베이스 URL 입력
+        String url = "jdbc:mysql://localhost:3306/?serverTimezone=UTC&characterEncoding=UTF-8"; //  데이터베이스 URL 입력
         String user = "root"; //  데이터베이스 사용자 이름 입력
-        String password = "gksthf0601"; //  데이터베이스 비밀번호 입력
+        String password = ""; //  데이터베이스 비밀번호 입력
 
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
             Service service = new Service();
